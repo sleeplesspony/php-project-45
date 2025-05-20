@@ -2,6 +2,7 @@
     "name": "hexlet/code",
     "description": "first hexlet project",
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Natalia Kozlova",
