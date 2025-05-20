@@ -1,0 +1,12 @@
+{
+    "name": "hexlet/code",
+    "description": "first hexlet project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Natalia Kozlova",
+            "email": "sleeplesspony@gmail.com"
+        }
+    ],
+    "require": {}
+}
