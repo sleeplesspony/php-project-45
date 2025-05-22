@@ -5,3 +5,5 @@
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sleeplesspony_php-project-45&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=sleeplesspony_php-project-45)
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/sleeplesspony/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/sleeplesspony/php-project-45/actions)
+### Demo:
+https://asciinema.org/a/fOAxvkQOsw7xASWHel61VVgPb
