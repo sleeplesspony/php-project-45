@@ -6,4 +6,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/sleeplesspony/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/sleeplesspony/php-project-45/actions)
 ### Demo:
+
+#### Проверка на четность:
 https://asciinema.org/a/fOAxvkQOsw7xASWHel61VVgPb
+
+#### Калькулятор:
+https://asciinema.org/a/OMe0QSOwH9j4TxM62tEOkbd5z
