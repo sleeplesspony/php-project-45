@@ -13,12 +13,10 @@ function startGame()
 function createGame()
 {
 
-    $game = [
+    return [
         "task" => 'Answer "yes" if given number is prime. Otherwise answer "no".',
         "rounds" => getRounds()
     ];
-
-    return $game;
 }
 
 function getRounds()
