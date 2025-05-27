@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 
 const MAX_QUESTIONS_NUM = 3;
-const MAX_RAND = 10;
+const MAX_RAND = 100;
 
 function start($game)
 {

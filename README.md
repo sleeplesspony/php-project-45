@@ -7,7 +7,7 @@
 [![Actions Status](https://github.com/sleeplesspony/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/sleeplesspony/php-project-45/actions)
 ### Demo:
 
-#### Проверка на четность:
+#### Проверка на четность
 https://asciinema.org/a/fOAxvkQOsw7xASWHel61VVgPb
 
 #### Калькулятор:
@@ -18,3 +18,6 @@ https://asciinema.org/a/341EADYccBvx1Lv4euW3oKINm
 
 #### Арифметическая прогрессия
 https://asciinema.org/a/ubWGv3YSCNHj3ZUcm5vTr4tmI
+
+#### Простое ли число
+https://asciinema.org/a/soQiY00aWoxzNcKlXr9QmZtrL
