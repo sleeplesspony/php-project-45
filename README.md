@@ -15,3 +15,6 @@ https://asciinema.org/a/OMe0QSOwH9j4TxM62tEOkbd5z
 
 #### Наибольший общий делитель
 https://asciinema.org/a/341EADYccBvx1Lv4euW3oKINm
+
+#### Арифметическая прогрессия
+https://asciinema.org/a/ubWGv3YSCNHj3ZUcm5vTr4tmI
