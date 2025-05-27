@@ -13,12 +13,11 @@ function startGame()
 function createGame()
 {
 
-    $game = [
+    return [
         "task" => 'Answer "yes" if the number is even, otherwise answer "no".',
         "rounds" => getRounds()
     ];
 
-    return $game;
 }
 
 function getRounds()

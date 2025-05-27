@@ -13,12 +13,11 @@ function startGame()
 function createGame()
 {
 
-    $game = [
+    return [
         "task" => "Find the greatest common divisor of given numbers.",
         "rounds" => getRounds()
     ];
 
-    return $game;
 }
 
 function getRounds()

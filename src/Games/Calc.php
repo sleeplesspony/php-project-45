@@ -13,12 +13,11 @@ function startGame()
 function createGame()
 {
 
-    $game = [
+    return [
         "task" => "What is the result of the expression?",
         "rounds" => getRounds()
     ];
 
-    return $game;
 }
 
 function getRounds()
