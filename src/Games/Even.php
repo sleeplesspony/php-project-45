@@ -17,7 +17,6 @@ function createGame()
         "task" => 'Answer "yes" if the number is even, otherwise answer "no".',
         "rounds" => getRounds()
     ];
-
 }
 
 function getRounds()

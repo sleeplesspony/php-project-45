@@ -17,7 +17,6 @@ function createGame()
         "task" => "What is the result of the expression?",
         "rounds" => getRounds()
     ];
-
 }
 
 function getRounds()

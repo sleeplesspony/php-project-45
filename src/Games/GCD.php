@@ -17,7 +17,6 @@ function createGame()
         "task" => "Find the greatest common divisor of given numbers.",
         "rounds" => getRounds()
     ];
-
 }
 
 function getRounds()
