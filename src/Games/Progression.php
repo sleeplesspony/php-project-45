@@ -15,7 +15,7 @@ function startGame()
 function createGame()
 {
     return [
-        "task" => "What number is missing in this progression?",
+        "task" => "What number is missing in the progression?",
         "rounds" => getRounds()
     ];
 }
