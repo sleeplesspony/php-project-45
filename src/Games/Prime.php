@@ -24,7 +24,7 @@ function getRounds()
     $rounds = [];
 
     for ($i = 1; $i <= Engine\MAX_QUESTIONS_NUM; $i++) {
-        $num = rand(1, Engine\MAX_RAND);
+        $num = random_int(1, Engine\MAX_RAND);
 
         $rounds[] = [
             "question" => "{$num}",
