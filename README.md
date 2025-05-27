@@ -12,3 +12,6 @@ https://asciinema.org/a/fOAxvkQOsw7xASWHel61VVgPb
 
 #### Калькулятор:
 https://asciinema.org/a/OMe0QSOwH9j4TxM62tEOkbd5z
+
+#### Наибольший общий делитель
+https://asciinema.org/a/341EADYccBvx1Lv4euW3oKINm
