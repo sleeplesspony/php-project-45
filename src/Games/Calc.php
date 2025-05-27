@@ -47,5 +47,7 @@ function getAnswer($operation, $num1, $num2)
             return $num1 - $num2;
         case '*':
             return $num1 * $num2;
+        default:
+            throw new \Exception("Unknown operation: {$operation}");
     }
 }
