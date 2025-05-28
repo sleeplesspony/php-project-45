@@ -4,13 +4,13 @@ namespace BrainGames\Games\Calc;
 
 use BrainGames\Engine;
 
-function startGame()
+function startGame(): void
 {
     $game = createGame();
     Engine\start($game);
 }
 
-function createGame()
+function createGame(): array
 {
 
     return [
@@ -19,7 +19,7 @@ function createGame()
     ];
 }
 
-function getRounds()
+function getRounds(): array
 {
     $rounds = [];
     $operations = array("+", "-", "*");
@@ -38,7 +38,7 @@ function getRounds()
     return $rounds;
 }
 
-function getAnswer($operation, $num1, $num2)
+function getAnswer(string $operation, int $num1, int $num2): int
 {
     switch ($operation) {
         case '+':

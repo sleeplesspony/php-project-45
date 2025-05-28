@@ -4,13 +4,13 @@ namespace BrainGames\Games\Even;
 
 use BrainGames\Engine;
 
-function startGame()
+function startGame(): void
 {
     $game = createGame();
     Engine\start($game);
 }
 
-function createGame()
+function createGame(): array
 {
 
     return [
@@ -19,7 +19,7 @@ function createGame()
     ];
 }
 
-function getRounds()
+function getRounds(): array
 {
     $rounds = [];
 
@@ -35,12 +35,12 @@ function getRounds()
     return $rounds;
 }
 
-function getAnswer($num)
+function getAnswer(int $num): string
 {
     return isEven($num) ? "yes" : "no";
 }
 
-function isEven($num)
+function isEven(int $num): bool
 {
     return $num % 2 === 0;
 }

@@ -4,13 +4,13 @@ namespace BrainGames\Games\Prime;
 
 use BrainGames\Engine;
 
-function startGame()
+function startGame(): void
 {
     $game = createGame();
     Engine\start($game);
 }
 
-function createGame()
+function createGame(): array
 {
 
     return [
@@ -19,7 +19,7 @@ function createGame()
     ];
 }
 
-function getRounds()
+function getRounds(): array
 {
     $rounds = [];
 
@@ -35,12 +35,12 @@ function getRounds()
     return $rounds;
 }
 
-function getAnswer($num)
+function getAnswer(int $num): string
 {
     return isPrime($num) ? "yes" : "no";
 }
 
-function isPrime($num)
+function isPrime(int $num): bool
 {
     if ($num < 2) {
         return false;

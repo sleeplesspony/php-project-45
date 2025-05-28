@@ -8,7 +8,7 @@ use function cli\prompt;
 const MAX_QUESTIONS_NUM = 3;
 const MAX_RAND = 100;
 
-function start($game)
+function start(array $game): void
 {
 
     line("Welcome to the Brain Game!");

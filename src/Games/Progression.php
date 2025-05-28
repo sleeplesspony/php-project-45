@@ -6,13 +6,13 @@ use BrainGames\Engine;
 
 const PROGRESSION_LENGTH = 10;
 
-function startGame()
+function startGame(): void
 {
     $game = createGame();
     Engine\start($game);
 }
 
-function createGame()
+function createGame(): array
 {
     return [
         "task" => "What number is missing in the progression?",
@@ -20,7 +20,7 @@ function createGame()
     ];
 }
 
-function getRounds()
+function getRounds(): array
 {
     $rounds = [];
 
@@ -37,7 +37,7 @@ function getRounds()
     return $rounds;
 }
 
-function getProgression()
+function getProgression(): array
 {
     $progression = [];
     $step = random_int(1, 10);
@@ -51,11 +51,11 @@ function getProgression()
     return $progression;
 }
 
-function getQuestion($progression, $missingIndex)
+function getQuestion(array $progression, int $missingIndex): string
 {
     $question = "";
     foreach ($progression as $key => $value) {
-        if ($key != $missingIndex) {
+        if ($key !== $missingIndex) {
             $question .= "{$value} ";
         } else {
             $question .= ".. ";

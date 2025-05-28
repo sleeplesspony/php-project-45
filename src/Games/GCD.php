@@ -4,13 +4,13 @@ namespace BrainGames\Games\GCD;
 
 use BrainGames\Engine;
 
-function startGame()
+function startGame(): void
 {
     $game = createGame();
     Engine\start($game);
 }
 
-function createGame()
+function createGame(): array
 {
 
     return [
@@ -19,7 +19,7 @@ function createGame()
     ];
 }
 
-function getRounds()
+function getRounds(): array
 {
     $rounds = [];
 
@@ -36,7 +36,7 @@ function getRounds()
     return $rounds;
 }
 
-function getAnswer($num1, $num2)
+function getAnswer(int $num1, int $num2): int
 {
     $num1 = abs($num1);
     $num2 = abs($num2);
