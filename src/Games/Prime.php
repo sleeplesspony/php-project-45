@@ -42,24 +42,22 @@ function getAnswer(int $num): string
 
 function isPrime(int $num): bool
 {
+    $isPrime = true;
+
     if ($num < 2) {
-        return false;
-    }
-
-    if ($num === 2) {
-        return true;
-    }
-
-    if ($num % 2 === 0) {
-        return false;
-    }
-
-
-    for ($i = 3; $i * $i <= $num; $i += 2) {
-        if ($num % $i === 0) {
-            return false;
+        $isPrime = false;
+    } elseif ($num === 2) {
+        $isPrime = true;
+    } elseif ($num % 2 === 0) {
+        $isPrime = false;
+    } else {
+        for ($i = 3; $i * $i <= $num; $i += 2) {
+            if ($num % $i === 0) {
+                $isPrime = false;
+                break;
+            }
         }
     }
 
-    return true;
+    return $isPrime;
 }
