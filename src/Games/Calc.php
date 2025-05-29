@@ -48,6 +48,6 @@ function getAnswer(string $operation, int $num1, int $num2): int
         case '*':
             return $num1 * $num2;
         default:
-            throw new \Exception("Unknown operation: {$operation}");
+            throw new \UnexpectedValueException("Unknown operation: {$operation}");
     }
 }
