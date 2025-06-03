@@ -23,7 +23,7 @@ function getRounds(): array
 {
     $rounds = [];
 
-    for ($i = 1; $i <= Engine\MAX_QUESTIONS_NUM; $i++) {
+    for ($i = 1; $i <= Engine\QUESTIONS_COUNT; $i++) {
         $num = random_int(1, Engine\MAX_RAND);
 
         $rounds[] = [

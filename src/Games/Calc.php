@@ -24,7 +24,7 @@ function getRounds(): array
     $rounds = [];
     $operations = array("+", "-", "*");
 
-    for ($i = 1; $i <= Engine\MAX_QUESTIONS_NUM; $i++) {
+    for ($i = 1; $i <= Engine\QUESTIONS_COUNT; $i++) {
         $num1 = random_int(1, Engine\MAX_RAND);
         $num2 = random_int(1, Engine\MAX_RAND);
         $operation = $operations[array_rand($operations)];

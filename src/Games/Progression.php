@@ -24,7 +24,7 @@ function getRounds(): array
 {
     $rounds = [];
 
-    for ($i = 1; $i <= Engine\MAX_QUESTIONS_NUM; $i++) {
+    for ($i = 1; $i <= Engine\QUESTIONS_COUNT; $i++) {
         $progression = getProgression();
         $missingIndex = random_int(0, PROGRESSION_LENGTH - 1);
 
