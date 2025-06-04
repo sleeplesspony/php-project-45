@@ -53,14 +53,6 @@ function getProgression(): array
 
 function getQuestion(array $progression, int $missingIndex): string
 {
-    $question = "";
-    foreach ($progression as $key => $value) {
-        if ($key !== $missingIndex) {
-            $question .= "{$value} ";
-        } else {
-            $question .= ".. ";
-        }
-    }
-
-    return rtrim($question);
+    $progression[$missingIndex] = "..";
+    return implode(" ", $progression);
 }
